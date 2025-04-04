@@ -15,7 +15,7 @@ const MenuPage = async ({ params }: { params: { id: string } }): Promise<JSX.Ele
     <main>
       <h1>상세페이지 {id}</h1>
       <div>
-        
+        {data.menus[1].korName}
       </div>
     </main>
   );

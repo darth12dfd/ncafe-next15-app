@@ -1,27 +1,19 @@
-"use client";
-import React, {FC,JSX} from 'react';
 
-/*
-interface MenuPageParams {
-    params: {
-        id: string;
-    };
-}
-    */
+import React, { FC, JSX } from 'react';
 
 type MenuPageParams = {
-    params: {
-        id: string; // 메뉴 ID 
-    }; 
+  params: {
+    id: string;
+  };
 };
 
-const MenuPage: FC<MenuPageParams> = ({ params }): JSX.Element=> {
-    const {id} = params;
-    return (
-        <main>
-            상세 페이지 {id}
-        </main>
-    );
+const MenuPage: FC<MenuPageParams> = ({ params }): JSX.Element => {
+  const { id } = params;
+  return (
+    <main>
+    상세페이지 {id}
+    </main>
+  );
 };
 
 export default MenuPage;
