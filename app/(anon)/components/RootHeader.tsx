@@ -1,10 +1,10 @@
 "use client";
 import Link from "next/link";
 
-export default function RootHeader () {
+const RootHeader = () => {
     return (
         <header>
-            <h1>Root Header</h1>
+            <h1>My Application</h1>
             <nav>
                 <ul>
                     <li><Link href="/">Home</Link></li>
@@ -15,4 +15,6 @@ export default function RootHeader () {
             </nav>
         </header>
     );
-}
+};
+
+export default RootHeader;

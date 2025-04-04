@@ -1,5 +1,6 @@
+// import './globals.css';
 "use client";
-import React, { ReactNode } from 'react';
+import { ReactNode } from 'react';
 import Basket from './components/Basket';
 
 type LayoutProps = {
@@ -9,8 +10,8 @@ type LayoutProps = {
 export default function RootLayout({ children }: LayoutProps) {
     return (
         <>
-            {children}
-            <Basket />
-        </>
+        {children}
+        <Basket />
+        </>      
     );
-};
+}

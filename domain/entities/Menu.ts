@@ -9,5 +9,6 @@ export class Menu {
         this.korName = korName;
         this.engName = engName;
         this.price = price;
+        
     }
 }
