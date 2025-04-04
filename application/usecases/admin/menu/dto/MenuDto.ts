@@ -1,1 +1,1 @@
-type MenuDto = {}
+class MenuDto {}
